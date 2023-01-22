@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+		box-shadow: none;
+	}
+	html {
+		font-family: Arial, Helvetica, sans-serif;
+		
+	}
+	#main {
+		background-color: #ec4747;
+	}
+	#header h1 {
+		font-size: 46px;
+		color: #1d8be2;
+		padding-top: 32px;
+		text-align: center;
+	}
+	#content {
+		/* background: url("./z4034776610413_542bcc43a855e47340be75a2e048ed94.jpg") top center / cover no-repeat; */
+		text-align: center;
+		margin-top: 28px;
+		
+	}
+	@media (max-width: 580px){
+		#content img {
+			--s: 300px !important;
+		}
+	}
+	#content img {
+  --s: 500px; /* the size of the image */
+  --b: 8px;   /* the border thickness*/
+  --g: 14px;  /* the gap */
+  --c: #4ECDC4;
+  border-radius: 50%;
+  width: var(--s);
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+	}
+	
+	#goal {
+		text-align: center;
+		margin-top: 36px;
+		font-family: 'Shadows Into Light', cursive;
+	}
+	#goal li {
+		padding: 6px 0;
+		font-size: 22px;
+		font-weight: 600;
+	}
+</style>
+<body>
+	<div id="main">
+		<div id="header">
+			<h1>Happy new year</h1>
+		</div>
+		<div id="content">
+			<img src="./z4034776610413_542bcc43a855e47340be75a2e048ed94.jpg" alt="">
+		</div>
+		<ul id="goal">
+			<li>Complete English pronunciation course at megastar english club</li>
+			<li>Learn more specialized knowledge and soft skills</li>
+			<li>Perfect yourself to become a more perfect version in 2023</li>
+		</ul>
+	</div>
+</body>
+</html>
